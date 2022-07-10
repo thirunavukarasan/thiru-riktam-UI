@@ -90,15 +90,15 @@ export const activeConverUser = [
                 item: 2
             },
             {
-                user: "Hendry Boyd",
+                user: "Martha Curtis",
                 msg: "Hai Bill nice to meet you",
-                userImg: "img4.png",
+                userImg: "img2.png",
                 item: 3
             },
             {
-                user: "Hendry Boyd",
+                user: "Martha Curtis",
                 msg: "hope your are doing fine",
-                userImg: "img4.png",
+                userImg: "img2.png",
                 item: 4
             },
             {
@@ -108,9 +108,9 @@ export const activeConverUser = [
                 item: 5
             },
             {
-                user: "Hendry Boyd",
+                user: "Martha Curtis",
                 msg: "I am intressed to know more about your prices and services you offer",
-                userImg: "img4.png",
+                userImg: "img2.png",
                 item: 6
             },
         ],
@@ -139,15 +139,15 @@ export const activeConverUser = [
                 item: 2
             },
             {
-                user: "Hendry Boyd",
+                user: "Philip Tucker",
                 msg: "Hai Bill nice to meet you",
-                userImg: "img4.png",
+                userImg: "img5.png",
                 item: 3
             },
             {
-                user: "Hendry Boyd",
+                user: "Philip Tucker",
                 msg: "hope your are doing fine",
-                userImg: "img4.png",
+                userImg: "img5.png",
                 item: 4
             },
             {
@@ -182,15 +182,15 @@ export const activeConverUser = [
                 item: 2
             },
             {
-                user: "Hendry Boyd",
+                user: "Jerry Guzman",
                 msg: "Hai Bill nice to meet you",
-                userImg: "img4.png",
+                userImg: "img8.png",
                 item: 3
             },
             {
-                user: "Hendry Boyd",
+                user: "Jerry Guzman",
                 msg: "hope your are doing fine",
-                userImg: "img4.png",
+                userImg: "img8.png",
                 item: 4
             },
             {

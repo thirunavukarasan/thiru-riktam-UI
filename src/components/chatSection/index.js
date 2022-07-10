@@ -141,7 +141,7 @@ const useStyles = makeStyles((theme) => ({
         height: "50px",
         width: "100%",
         background: "white",
-        margin: "2%",
+        // margin: "2%",
         display: "flex",
         alignItems: "center",
     },
