@@ -32,12 +32,22 @@ function App() {
 
 export default App;
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
     paperRoot: {
-        height: "95vh",
+        height: "100vh",
         margin: "2% 0%",
         "& .chatSection": {
-            padding: "20px 0px"
-        }
+            padding: "20px 20px",
+        },
+        [theme.breakpoints.up('sm')]: {
+            "& .chatSection": {
+                padding: "20px 20px",
+            },
+        },
+        [theme.breakpoints.up('md')]: {
+            "& .chatSection": {
+                padding: "20px 0px",
+            },
+        },
     }
-});
+}));

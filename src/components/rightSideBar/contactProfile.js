@@ -47,7 +47,7 @@ export default function ContactProfile() {
 const useStyles = makeStyles((theme) => ({
     paper: {
         width: "100%",
-        height: "160px",
+        height: "170px",
         background: "#eff7fe",
         display: "flex",
         alignItems: "center",

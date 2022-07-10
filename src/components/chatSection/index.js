@@ -52,7 +52,7 @@ export default function Index() {
             >
                 <Grid item xs={12}>
                     <Grid item xs={12} style={{ margin: "2%", maxHeight: "580px", overflowY: "auto" }} className={'scrollbar'}>
-                        {context.messages.map((d,i) => {
+                        {context.messages.map((d, i) => {
                             return (
                                 <React.Fragment key={i}>
                                     {
@@ -101,13 +101,13 @@ export default function Index() {
                             justifyContent="space-between"
                             alignItems="flex-start"
                         >
-                            <Grid item xs={1} >
+                            <Grid item xs={1} md={1} lg={1}>
                                 <AttachFileIcon style={{ padding: "6px 0px 0px 6px" }} />
                             </Grid>
-                            <Grid item xs={9} >
+                            <Grid item xs={9} md={7} lg={9}>
                                 <input placeholder="Enter your message here" type="text" id="messaage" name="messaage" style={{ width: "95%", height: "30px" }} value={newMessage} onChange={(e) => onHandleChange(e)} />
                             </Grid>
-                            <Grid item xs={2} >
+                            <Grid item xs={2} md={4} lg={2} style={{ textAlign: "center" }}>
                                 <Button
                                     variant="contained"
                                     color="primary"
@@ -128,9 +128,12 @@ export default function Index() {
     )
 }
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
     chatSecRoot: {
         height: "90vh",
+        [theme.breakpoints.up('md')]: {
+            height: '96vh',
+        },
         background: "#eff7fe",
     },
     inputTextBox: {
@@ -157,4 +160,4 @@ const useStyles = makeStyles({
         color: "black",
         borderRadius: "10px"
     }
-});
+}));

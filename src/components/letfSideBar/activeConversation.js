@@ -121,7 +121,7 @@ export default function ActiveConversation(props) {
     )
 }
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
     rootActiveCon: {
         paddingTop: "2%",
         width: "100%",
@@ -138,9 +138,14 @@ const useStyles = makeStyles({
         alignItems: "center",
         width: "100%",
         height: "50px",
-        padding: "2%",
+        padding: "0%",
         margin: "1% 0%",
         borderRadius: "10px",
-        cursor: "pointer"
+        cursor: "pointer",
+        [theme.breakpoints.up('md')]: {
+            "& .chatSection": {
+                padding: "2%",
+            },
+        },
     }
-});
+}));
