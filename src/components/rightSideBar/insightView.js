@@ -6,7 +6,6 @@ import ScheduleIcon from '@material-ui/icons/Schedule';
 import PeopleIcon from '@material-ui/icons/People';
 import MessageIcon from '@material-ui/icons/Message';
 import CollectionsBookmarkIcon from '@material-ui/icons/CollectionsBookmark';
-import Typography from '@material-ui/core/Typography';
 import { appContext } from "../../state/app.context";
 import { weekDays } from "../../assets/mockData/userConversation";
 

@@ -104,10 +104,10 @@ export default function Index() {
                             <Grid item xs={1} md={1} lg={1}>
                                 <AttachFileIcon style={{ padding: "6px 0px 0px 6px" }} />
                             </Grid>
-                            <Grid item xs={9} md={7} lg={9}>
+                            <Grid item xs={8} md={7} lg={9}>
                                 <input placeholder="Enter your message here" type="text" id="messaage" name="messaage" style={{ width: "95%", height: "30px" }} value={newMessage} onChange={(e) => onHandleChange(e)} />
                             </Grid>
-                            <Grid item xs={2} md={4} lg={2} style={{ textAlign: "center" }}>
+                            <Grid item xs={3} md={4} lg={2} style={{ textAlign: "center" }}>
                                 <Button
                                     variant="contained"
                                     color="primary"
@@ -115,6 +115,7 @@ export default function Index() {
                                     endIcon={<SendIcon />}
                                     style={{ textTransform: "none" }}
                                     onClick={() => onSendMessage()}
+                                    size="small"
                                 >
                                     Send
                                 </Button>
@@ -138,11 +139,11 @@ const useStyles = makeStyles((theme) => ({
     },
     inputTextBox: {
         height: "50px",
-        width: "96%",
+        width: "100%",
         background: "white",
         margin: "2%",
         display: "flex",
-        alignItems: "center"
+        alignItems: "center",
     },
     chatBoxText1: {
         marginRight: "2%",

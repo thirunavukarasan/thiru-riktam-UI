@@ -21,7 +21,7 @@ export default function ActiveConversation(props) {
             name: "Hendry Boyd",
             email: "hendry@gmail.com"
         });
-    }, [])
+    },[expanded])
 
     const handleChange = (panel) => (event, isExpanded) => {
         setExpanded(isExpanded ? panel : false);
